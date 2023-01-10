@@ -89,7 +89,7 @@ body {
 
 .heroSection {
   background-image: url(hero.jpg);
-  height: 60vh;
+  height: 70vh;
   object-fit: cover;
   background-repeat: no-repeat;
   background-size: cover;
@@ -101,7 +101,7 @@ body {
 
 .heroSection a {
   position: absolute;
-  bottom: 2rem;
+  bottom: 1rem;
 }
 
 .app-btn {
