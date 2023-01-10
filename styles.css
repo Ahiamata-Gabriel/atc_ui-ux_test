@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari&family=Lobster+Two&family=Ubuntu&display=swap');
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  overflow-x: hidden;
+}
+
+html {
+  scroll-behavior: smooth;
+  font-size: 62.5%;
+}
+
+:root {
+  --primary-color: #2d3c54;
+  --secondary-color: #e9d9a9;
+}
+
+body {
+  font-family: 'Anek Devanagari', sans-serif;
+  color: #fff;
+}
+
+.container {
+  max-width: 1201px;
+}
+
+/* ======= HEADER SECTION ======= */
+
+.header {
+  background-color: var(--primary-color);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.innerEl {
+  background-color: #242f42;
+  width: 50%;
+  margin: 0.5rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.8rem 0;
+  border-radius: 40px;
+}
+
+.logo {
+  font-weight: 700;
+  color: var(--secondary-color);
+  font-size: 1.8rem;
+  letter-spacing: 0.2rem;
+  padding: 0.5rem;
+  text-align: center;
+  border: #fff solid 3px;
+  border-radius: 40px;
+}
+
+.github-container {
+  background-color: #242f42;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: -55px;
+  top: -5px;
+  padding: 2rem 6rem 0.5rem 6rem;
+  transform: rotate(45deg);
+}
+
+.github-container i {
+  font-size: 2.5rem;
+  color: var(--secondary-color);
+  transition: color 300ms ease-in-out;
+}
+
+.github-container i:hover {
+  color: #fff;
+}
+
+/* ======= HERO SECTION ======= */
+
+.heroSection {
+  background-image: url(hero.jpg);
+  height: 60vh;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.heroSection a {
+  position: absolute;
+  bottom: 2rem;
+}
+
+.app-btn {
+  bottom: 2rem;
+  padding: 1rem 4rem;
+  background-color: transparent;
+  border: #fff 2px solid;
+  color: var(--secondary-color);
+  font-size: medium;
+  border-radius: 20px;
+  font-weight: 600;
+  transition: all 300ms ease-in-out;
+}
+
+.app-btn:hover {
+  background-color: #fff;
+  color: var(--primary-color);
+  border: var(--secondary-color) 2px solid;
+}
+
+.heroSection-contents {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.heroSection-contents h6 {
+  font-size: 2rem;
+  letter-spacing: 0.1rem;
+  font-weight: 300;
+}
+
+.heroSection-contents h2 {
+  font-size: 3rem;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+}
+
+/* ======= OFFER SECTION ======= */
+
+.offersSection {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 15rem 0 15rem;
+  padding: 0 2rem 0 2rem;
+}
+
+.offersSection-contents {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 3rem;
+}
+
+.offers-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  color: var(--primary-color);
+}
+
+.offers-text i {
+  padding-right: 0.5rem;
+}
+
+.offers-text h3 {
+  font-size: 2.5rem;
+}
+
+.offers-text h6 {
+  font-size: 1.6rem;
+  letter-spacing: 0.1rem;
+}
+
+.offersIllus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.illustration {
+  width: 100%;
+}
+
+.offers-btn,
+.profile-btn {
+  padding: 1rem 2rem;
+  border-radius: 15px;
+  background-color: #927526;
+  color: #fff;
+  border: none;
+  font-size: 1.5rem;
+  text-align: center;
+  transition: all 300ms ease-in-out;
+}
+
+.offers-btn:hover {
+  background-color: var(--primary-color);
+}
+
+.profile-btn:hover {
+  background-color: transparent;
+  border: #fff 1px solid;
+}
+
+/* ======= TEAM SECTION ======= */
+
+.team-section {
+  background-color: var(--primary-color);
+}
+
+.team-text {
+  margin: 0 15rem 0 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 4rem;
+}
+
+.team-text h3 {
+  font-size: 2.5rem;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+}
+
+.team-text p {
+  font-size: 1.8rem;
+  letter-spacing: 0.1rem;
+  font-weight: 300;
+}
+
+.profile-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 15rem 0 15rem;
+  padding: 3rem 0 3rem 0;
+}
+
+.profile-img {
+  width: 80%;
+  height: 80%;
+  border: var(--secondary-color) 3px solid;
+  border-radius: 15px;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile h3 {
+  padding-top: 1.5rem;
+  font-size: 2.2rem;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+}
+
+.profile h4 {
+  color: #927526;
+  font-size: 2.2rem;
+  letter-spacing: 0.1rem;
+  font-weight: 500;
+}
+
+.profile-btn-container {
+  padding: 2rem 0 4rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer h5 {
+  font-size: 1.8rem;
+  color: var(--primary-color);
+}

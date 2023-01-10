@@ -1,0 +1,431 @@
+/* *** Laptops *** */
+@media (min-width: 769px) and (max-width: 1023px) {
+  .logo {
+    font-size: 1.5rem;
+    padding: 0.3rem;
+    border: #fff solid 1.5px;
+  }
+
+  .github-container i {
+    font-size: 1.8rem;
+  }
+
+  /* ======= HERO SECTION ======= */
+
+  .heroSection {
+    height: 60vh;
+  }
+
+  .heroSection-contents {
+    padding: 0 1rem 0 1rem;
+  }
+
+  /* ======= OFFER SECTION ======= */
+  .offersSection {
+    margin: 2rem 6rem 0 6rem;
+    padding: 0;
+  }
+  .offersSection-contents {
+    padding: 3rem 0 3rem 0;
+  }
+
+  .offers-text h3 {
+    font-size: 2rem;
+  }
+
+  .offers-text h6 {
+    font-size: 1.5rem;
+  }
+
+  .illustration {
+    width: 90%;
+  }
+
+  .offers-btn,
+  .profile-btn {
+    padding: 0.7rem 1.7rem;
+    border-radius: 15px;
+    background-color: #927526;
+    color: #fff;
+    border: none;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  /* ======= TEAM SECTION ======= */
+
+  .team-text {
+    margin: 0 5rem 0 5rem;
+  }
+
+  .team-text h3 {
+    font-size: 2rem;
+  }
+
+  .team-text p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .profile-section {
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 5rem 0 5rem;
+    padding: 0;
+  }
+
+  .profile {
+    padding-top: 3rem;
+  }
+
+  .profile-img {
+    width: 80%;
+  }
+
+  .profile h3 {
+    font-size: 1.7rem;
+  }
+
+  .profile h4 {
+    font-size: 1.8rem;
+  }
+
+  .footer h5 {
+    font-size: 1.6rem;
+  }
+}
+
+/* *** Tablets *** */
+@media (min-width: 481px) and (max-width: 768px) {
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .logo {
+    font-size: 1.3rem;
+    padding: 0.3rem;
+    border: #fff solid 1px;
+  }
+
+  .github-container i {
+    font-size: 1.8rem;
+  }
+
+  /* ======= HERO SECTION ======= */
+
+  .heroSection {
+    height: 50vh;
+  }
+
+  .heroSection-contents {
+    padding: 0 1rem 0 1rem;
+  }
+
+  .heroSection-contents h6 {
+    font-size: 1.7rem;
+  }
+
+  .heroSection-contents h2 {
+    font-size: 2.2rem;
+  }
+
+  /* ======= OFFER SECTION ======= */
+  .offersSection {
+    margin: 2rem 6rem 0 6rem;
+    padding: 0;
+  }
+
+  .offersSection-contents {
+    grid-template-columns: 1fr;
+  }
+
+  .offers-text {
+    margin-bottom: 3rem;
+  }
+
+  .illustration {
+    width: 60%;
+  }
+
+  .offers-btn,
+  .profile-btn {
+    padding: 0.7rem 1.7rem;
+    border-radius: 15px;
+    background-color: #927526;
+    color: #fff;
+    border: none;
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  /* ======= TEAM SECTION ======= */
+
+  .team-text {
+    margin: 0 5rem 0 5rem;
+  }
+
+  .team-text h3 {
+    font-size: 2rem;
+  }
+
+  .team-text p {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .profile-section {
+    grid-template-columns: 1fr;
+    margin: 0 5rem 0 5rem;
+    padding: 0;
+  }
+
+  .profile {
+    padding-top: 3rem;
+  }
+
+  .profile-img {
+    width: 50%;
+  }
+
+  .profile h3 {
+    font-size: 1.7rem;
+  }
+
+  .profile h4 {
+    font-size: 1.8rem;
+  }
+
+  .footer h5 {
+    font-size: 1.6rem;
+  }
+}
+
+/* *** Mobile phones *** */
+@media (min-width: 341px) and (max-width: 480px) {
+  /* ======= HEADER SECTION ======= */
+
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .logo {
+    font-size: 1.3rem;
+    padding: 0.3rem;
+    border: #fff solid 1px;
+  }
+
+  .github-container i {
+    font-size: 1.8rem;
+  }
+
+  /* ======= HERO SECTION ======= */
+
+  .heroSection {
+    height: 40vh;
+  }
+
+  .heroSection-contents {
+    padding: 0 1rem 0 1rem;
+  }
+
+  .heroSection-contents h6 {
+    font-size: 1rem;
+  }
+
+  .heroSection-contents h2 {
+    font-size: 1.3rem;
+  }
+
+  /* ======= OFFER SECTION ======= */
+  .offersSection {
+    margin: 2rem 3rem 0 3rem;
+    padding: 0;
+  }
+
+  .offersSection-contents {
+    grid-template-columns: 1fr;
+  }
+
+  .offers-text {
+    margin-bottom: 3rem;
+  }
+
+  .offers-text h3 {
+    font-size: 1.7rem;
+  }
+
+  .offers-text h6 {
+    font-size: 1.2rem;
+  }
+
+  .illustration {
+    width: 80%;
+  }
+
+  .offers-btn {
+    width: 100%;
+  }
+
+  .offers-btn,
+  .profile-btn {
+    padding: 0.7rem 1.7rem;
+    border-radius: 15px;
+    background-color: #927526;
+    color: #fff;
+    border: none;
+    font-size: 1.3rem;
+    text-align: center;
+  }
+
+  /* ======= TEAM SECTION ======= */
+
+  .team-text {
+    margin: 0 2rem 0 2rem;
+  }
+
+  .team-text h3 {
+    font-size: 1.5rem;
+  }
+
+  .team-text p {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  .profile-section {
+    grid-template-columns: 1fr;
+    margin: 0;
+    padding: 0;
+  }
+
+  .profile {
+    padding-top: 3rem;
+  }
+
+  .profile-img {
+    width: 60%;
+  }
+
+  .profile h3 {
+    font-size: 1.7rem;
+  }
+
+  .profile h4 {
+    font-size: 1.4rem;
+  }
+
+  .footer h5 {
+    font-size: 1.4rem;
+  }
+}
+
+/* *** Smaller  phones *** */
+@media (max-width: 340px) {
+  ::-webkit-scrollbar {
+    width: 0;
+  }
+
+  .logo {
+    font-size: 1.1rem;
+    padding: 0.3rem;
+    border: #fff solid 1px;
+  }
+
+  .github-container i {
+    font-size: 1.5rem;
+  }
+
+  /* ======= HERO SECTION ======= */
+
+  .heroSection {
+    height: 40vh;
+  }
+
+  .heroSection-contents {
+    padding: 0 1rem 0 1rem;
+  }
+
+  .heroSection-contents h6 {
+    font-size: 0.8rem;
+  }
+
+  .heroSection-contents h2 {
+    font-size: 1.1rem;
+  }
+
+  /* ======= OFFER SECTION ======= */
+  .offersSection {
+    margin: 2rem 3rem 0 3rem;
+    padding: 0;
+  }
+
+  .offersSection-contents {
+    grid-template-columns: 1fr;
+  }
+
+  .offers-text {
+    margin-bottom: 3rem;
+  }
+
+  .offers-text h3 {
+    font-size: 1.7rem;
+  }
+
+  .offers-text h6 {
+    font-size: 1.2rem;
+  }
+
+  .illustration {
+    width: 80%;
+  }
+
+  .offers-btn {
+    width: 100%;
+  }
+
+  .offers-btn,
+  .profile-btn {
+    padding: 0.7rem 1.7rem;
+    font-size: 0.8rem;
+  }
+
+  /* ======= TEAM SECTION ======= */
+
+  .team-text {
+    margin: 0 2rem 0 2rem;
+  }
+
+  .team-text h3 {
+    font-size: 1.2rem;
+  }
+
+  .team-text p {
+    font-size: 0.8rem;
+    text-align: center;
+  }
+
+  .profile-section {
+    grid-template-columns: 1fr;
+    margin: 0;
+    padding: 0;
+  }
+
+  .profile {
+    padding-top: 3rem;
+  }
+
+  .profile-img {
+    width: 50%;
+  }
+
+  .profile h3 {
+    font-size: 1.4rem;
+  }
+
+  .profile h4 {
+    font-size: 1.1rem;
+  }
+
+  .footer h5 {
+    font-size: 1.1rem;
+  }
+}
